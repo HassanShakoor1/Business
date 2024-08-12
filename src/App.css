@@ -1,0 +1,162 @@
+.Container{
+width: 100%;
+display: flex;
+height: 100vh;
+justify-content: center;
+place-items: center;
+
+}
+
+.Mobile-Data{
+
+  background-image: url(public/images/bck-ground.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ border-radius: 1rem;
+  width: 100%;
+  max-width: 430px;
+display: flex;
+flex-direction: column;
+
+}
+.inner-data{
+  margin-top: 15rem;
+}
+
+.name-heading{
+ 
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    line-height: 0;
+    margin-top: 200px;
+    font-size: 45px;
+    color: #D3D5D6;
+    font-weight: normal; /* Explicitly set font weight to normal */
+  }
+
+
+.m-m-head{
+  margin-left: 1rem;
+  font-size: 15px;
+  color: #D3D5D6;
+}
+.T-l{
+  width: 42px;
+  height: 40px;
+  display: flex;
+  margin-left: 3rem;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+background-color:#DCBE18; /* Optional, for visual purposes */
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold; 
+
+}
+.t-ll{
+ 
+ 
+  border-radius: 100%;
+ 
+  justify-content: center;
+  font-weight: bold; 
+  padding-bottom: 2.8rem;
+  color: rgb(239, 255, 11);
+}
+.divs{
+  display: flex;
+  margin-left: 1rem;
+  
+ 
+}
+.div,.div3{
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #D3D5D6;;
+  border-radius: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-container{
+  width: 90%;
+  border-radius: 20px;
+ margin: 20px auto 20px;
+
+  background-color:#262626;
+  
+
+}
+
+.about-h{
+  font-weight: bold;
+  text-align: center;
+  color: #D3D5D6;
+}
+
+.para{
+
+  text-align: center;
+  color: #D3D5D6;
+}
+
+
+.div2{
+ margin: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #D3D5D6;;
+  border-radius: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.divs .div3 {
+ 
+margin: auto;
+  width: 35%;
+  height: 50px;
+  background-color: #D3D5D6;
+  border-radius: 40px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content:space-between;
+
+
+
+}
+
+
+
+.txt{
+  font-size: 10px;
+  padding-left: 30px;
+}
+
+
+
+.div3 .blk-btn{
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(4, 4, 4);
+  border-radius: 100%;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
